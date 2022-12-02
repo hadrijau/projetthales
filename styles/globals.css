@@ -25,7 +25,7 @@ a {
 }
 
 .modal-dialog {
-  max-width: 1050px;
+  max-width: 1050px!important;
 }
 
 .container-id {

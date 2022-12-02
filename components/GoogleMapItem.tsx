@@ -15,7 +15,11 @@ const GoogleMapItem = ({item}) => {
                 {item.name}
             </Button>
 
-            <Modal show={show} onHide={handleClose} dialogClassName="my-modal" style={{marginTop: "50px", alignSelf: "center"}}>
+            <Modal
+                show={show}
+                onHide={handleClose}
+                dialogClassName="my-modal" style={{marginTop: "50px", alignSelf: "center", paddingBottom: "100px", overflow: "scroll"}}
+            >
                 <Modal.Body>
                     {item.image}
                 </Modal.Body>
